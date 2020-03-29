@@ -1,16 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import 'jquery';
+import './global.css';
+import Routes from './routes';
 
 function App() {
   return (
-    <div className="App">
-      <button onClick={()=>{
-        
-      }}>botao</button>
-    </div>)
-  
+    <Routes/>
+    );
 }
 
 export default App;
